@@ -1,19 +1,18 @@
-
-    const Title = () => {
+const Title = () => {
         return (
         <h1>Learn Web Development</h1>
         );
-    };
+};
 
-    const Para = () => {
+const Para = () => {
         return (
         <p>Welcome to the MDN learnig area. This set of artcles aims to guide complete beginners to web development with all that they need to start codding websites.</p>
         );
-    };
+};
 
-    const Apara = () => {
+const Apara = () => {
         return (
-        <p>The aim of this area of MDN is not take you from "beginner" to "expert" but to take you from "beginner" to "comfortable". From there, you should ba able to start making your way, learning from <span> <a href="#">the rest of MDN</a> </span>,and other intermediate to advanced resources that assume a lot of previous knowledege.</p>
+        <p>The aim of this area of MDN is not take you from "beginner" to "expert" but to take you from "beginner" to "comfortable". From there, you should ba able to start making your way, learning from <span> <a href="https://developer.mozilla.org/en-US/" target="_blank">the rest of MDN</a> </span>,and other intermediate to advanced resources that assume a lot of previous knowledege.</p>
         );
     };
     const Bpara = () => {
@@ -28,8 +27,11 @@
         return (
             <div className="container">
          <Title/> 
+         <br/>
          <Para/>
+         <br/>
          <Apara/>
+         <br/>
          <Bpara/>
         </div>
     );
